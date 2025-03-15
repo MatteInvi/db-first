@@ -1,0 +1,15 @@
+
+id                          - UNSIGHT BIGINT            - PRIMARY KEY(UNIQUE, NOT NULL) - AUTO_INCREMENT
+marca                       - VARCHAR(255)              - NOTNULL
+modello                     - VARCHAR(255)              - NOTNULL
+motorizzazzione             - SMALLINT                  - NOTNULL
+potenza                     - SMALLINT                  - NOTNULL
+tipo_di_cambio              - VARCHAR(255)              - NOTNULL
+trazione                    - VARCHAR(255)              - NULL
+peso                        - SMALLINT                  - NULL
+colore                      - VARCHAR(255)              - NULL
+allestimento                - VARCHAR(255)              - NULL
+immagine                    - VARCHAR(255)              - NULL
+anno_di_immatricolazione    - YEAR                      - NOTNULL                
+km_percorsi                 - MEDIUMINT                 - NOTNULL    
+prezzo                      - DECIMAL(10,2)             - NOTNULL                
